@@ -45,7 +45,7 @@ namespace main
             double conv_eu = rubls / 103.04;
 
             Console.WriteLine("Конвертер из рублей в доллары: " + conv_us);
-            Console.WriteLine("Конвертер из рублей в евро: " + conv_eu);     /* 3 задание */
+            Console.WriteLine("Конвертер из рублей в евро: " + conv_eu);     /* 3 задание   */
 
 
         }
