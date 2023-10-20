@@ -7,8 +7,8 @@ namespace even_odd
     {
         static void Main(string[] args)
         {
-            double even = 0;       //четные
-            double odd = 0;        //нечетные
+            double even = 0;       // четные
+            double odd = 0;        // нечетные
 
             Console.WriteLine("Укажите начало лимита");
             int count = int.Parse(Console.ReadLine());
