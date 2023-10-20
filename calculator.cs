@@ -10,7 +10,7 @@ namespace task3
             while (true)
             {   
                 Console.Clear();
-                double a, b;                                                // калькулятор через If else
+                double a, b;                                                //  калькулятор через If else
                 try
                 {
 
