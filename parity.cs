@@ -6,7 +6,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-            int a;
+            int a;                            // 2 task
 
             a = int.Parse(Console.ReadLine());
 
