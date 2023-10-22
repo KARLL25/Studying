@@ -17,6 +17,7 @@ namespace triangle_2
                     Console.Write("*");
                 }
                 Console.WriteLine();
+                
             }
         }
     }
