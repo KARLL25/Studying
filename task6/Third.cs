@@ -11,20 +11,27 @@ namespace task6
         static void Main(string[] args)
         {
             int sum = 0;
-            int[] mas = new int[5];
+            Console.WriteLine("Введите количество значений в массиве: ");
+            int elementsMas = int.Parse(Console.ReadLine());
+            int[] mas = new int[elementsMas];
+
             Console.WriteLine("Введите значения массива: ");
+
             for (int i = 0; i < mas.Length; i++)
             {
                 mas[i] = int.Parse(Console.ReadLine());
-                if (mas[i] % 2 == 0 )
+                if (mas[i] % 2 == 0)
                 {
                     sum = sum + mas[i];
-                    
+
                 }
-                
-            }
+
+
+
+            }    
             Console.WriteLine(sum);
-            
         }
+
     }
 }
+
