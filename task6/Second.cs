@@ -12,6 +12,8 @@ namespace task6
         {
             int[] mas = new int[5];
 
+            Console.WriteLine("Введите значения массива: ");
+            
             for (int i = 0; i < mas.Length; i++)
             {
                 mas[i] = int.Parse(Console.ReadLine());
