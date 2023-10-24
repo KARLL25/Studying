@@ -10,21 +10,28 @@ namespace task6
     {
         static void Main(string[] args)
         {
-            int[] mas = new int[5];
+            
+            Console.WriteLine("Введите количество значений в массиве: ");
+            int elementsMas = int.Parse(Console.ReadLine());
+            int[] mas = new int[elementsMas];
 
             Console.WriteLine("Введите значения массива: ");
-            
+
             for (int i = 0; i < mas.Length; i++)
             {
                 mas[i] = int.Parse(Console.ReadLine());
+
                 
-                
+
+
             }
             Console.WriteLine();
-            for (int i = 4;i >= 0; i--) 
+            
+            for (int i = mas.Length - 1; i >= 0; i--)
             {
                 Console.WriteLine(mas[i]);
             }
+
         }
     }
 }
