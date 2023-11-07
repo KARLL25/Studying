@@ -38,11 +38,11 @@ namespace main
         static void Main(string[] args)
         {
             int[] mas = { 1, 2, 3 , 2};
-            //Insert(ref mas, -5,2);
+            /*Insert(ref mas, -5,2);*/          // по индексу
 
-            //AddFirst(ref mas, 10); 
+            //AddFirst(ref mas, 10);            // первое значение
             
-            AddLast(ref mas, -5);
+            AddLast(ref mas, -5);               // последнее значение
             
           
         }
